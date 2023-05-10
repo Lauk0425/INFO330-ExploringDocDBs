@@ -10,7 +10,9 @@ def fetch(pokemonid):
 
 def battle(pokemon1, pokemon2):
     print("Let the Pokemon battle begin! ================")
+    print("Sorry i could not figure out the NoneType error and gave up")
     print("It's " + pokemon1['name'] + " vs " + pokemon2['name'])
+
 
     for stat in ['hp', 'attack', 'defense', 'speed', 'sp_attack', 'sp_defense']:
         if pokemon1[stat] > pokemon2[stat]:
