@@ -7,3 +7,4 @@ print("I found " + str(pokemonColl.count_documents({})) + " pokemon")
 # put str cast in front of pokemonColl? error without casting as str
 
 
+
